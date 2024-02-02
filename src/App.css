@@ -1,0 +1,43 @@
+input{
+  border: none;
+  color: black;
+}
+.main{
+  margin: auto;
+  margin-top:150px;
+  background: goldenrod;
+  width: 310px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.ans{
+  margin-right:5px;
+}
+.ans #ans2{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  background-color:rgba(0, 0, 0, 0.4) ;
+  padding-top:80px;
+  padding-bottom:10px;
+  border: none;
+  color: white;
+  font-size: 40px;
+  text-align: end;
+  outline: 0px;
+}
+.first{
+  display: flex;
+}
+.first input{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 4px;
+  font-size: 25px;
+  background: whitesmoke;
+}
+.first input:hover{
+  background-color: #9D8854;
+  color: black;
+  transition: .5s;
+}
